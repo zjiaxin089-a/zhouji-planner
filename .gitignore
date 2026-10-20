@@ -1,0 +1,17 @@
+# Never publish signing material or secrets
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+.zhouji-android-signing/
+signing/
+.env
+.env.*
+private_terms.txt
+
+# Local build files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
